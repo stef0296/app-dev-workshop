@@ -18,7 +18,7 @@
 ||Break|15 mins|
 ||JSON Serialization & Deserialization|15-20 mins|
 ||Adding persistence to your app (SQLite & HiveDB)|1h 15 mins|
-|29.11.2022|Recap \| Qestions|10-15 mins|
+|24.11.2022|Recap \| Qestions|10-15 mins|
 ||Introduction to Firebase ecosystem|10 mins|
 ||Create & setup a firebase project|10 mins|
 ||Error handling & monitoring with Crashlytics |15 mins|
