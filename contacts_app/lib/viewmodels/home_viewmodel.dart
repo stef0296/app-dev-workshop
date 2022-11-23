@@ -4,6 +4,10 @@ import 'package:contacts_app/model/contacs_model.dart';
 import 'package:contacts_app/views/contact_form.dart';
 import 'package:flutter/material.dart';
 
+/// For viewmodels, prefer using singleton pattern
+/// This creates a single instance which can be used throughout the app
+/// This ensures that the variables and data-stores being accessed are the same across all screens.
+
 class HomeViewModel {
   HomeViewModel._();
   static HomeViewModel? _instance;
@@ -22,6 +26,12 @@ class HomeViewModel {
   }
 
   void editContact(BuildContext context, ContactsModel contact) {
+    /// Simple navigation by pushing new Views with a PageRoute
+    /// For routing you can either use:
+    ///  MaterialPageRoute ref: https://api.flutter.dev/flutter/material/MaterialPageRoute-class.html
+    /// or
+    /// CupertinoPageRoute ref: https://api.flutter.dev/flutter/cupertino/CupertinoPageRoute-class.html
+
     // Navigator.push(
     //   context,
     //   MaterialPageRoute(

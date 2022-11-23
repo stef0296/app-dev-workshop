@@ -2,6 +2,10 @@ import 'package:contacts_app/views/contact_form.dart';
 import 'package:contacts_app/views/home.dart';
 import 'package:flutter/material.dart';
 
+/// Navigation basics: https://docs.flutter.dev/development/ui/navigation
+/// For named routes refer: https://docs.flutter.dev/cookbook/navigation/named-routes
+/// Passing arguments to named routes: https://docs.flutter.dev/cookbook/navigation/navigate-with-arguments
+
 void main() {
   runApp(const MyApp());
 }

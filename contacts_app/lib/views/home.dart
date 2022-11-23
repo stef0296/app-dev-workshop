@@ -20,6 +20,18 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Contacts'),
       ),
+
+      /// A `Column` combined with a `SingleChildScrollView` achieves the same
+      /// visual effect as a `ListView`.
+      /// However the major difference is how it runs in the background.
+      ///
+      /// A Column will render all its children, which can be terrible for
+      /// performance when you have a large number of child widgets.
+      ///
+      /// A ListView only renders widgets on the screen and a few extra in the buffer.
+      /// This makes it highly performative for rendering a large number of widgets
+      /// without overloading the memory.
+
       // body: SingleChildScrollView(
       //   child: Column(
       //     children: widgets,
