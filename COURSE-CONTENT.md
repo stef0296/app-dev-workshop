@@ -44,3 +44,5 @@
 * Networking
     * [JSON & serialization](https://docs.flutter.dev/development/data-and-backend/json)
     * [HTTP requests](https://pub.dev/packages/http)
+* Firebase
+    * [plugins](https://firebase.google.com/docs/flutter/setup?platform=ios#available-plugins)
